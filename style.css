@@ -1,5 +1,6 @@
 .button-49, .button-49::after {
     font-size: 1.5rem;
+    height: 3rem;
     /* background: linear-gradient( transparent 5%, #f60404 5%); */
     background-color: red;
     border: 0;
@@ -80,3 +81,40 @@
       transform: translate(0);
     }
   }
+
+  .read1{
+    pointer-events: auto;
+    color: #fc030374;
+  }
+
+  .read1:hover {
+    color: #fcbe03a9;
+  }
+
+  .read{
+    pointer-events: auto;
+    color: #fcbe03a9;
+  }
+  .read:hover{
+    color: #fc030374;
+  }
+
+  .div1{
+    pointer-events: none;
+    background-image: linear-gradient(#fcad038d, #fcbe03a9), url(dsa.jpg);
+  }
+
+  
+  .div2{
+    pointer-events: none;
+    background-image: linear-gradient(#fc030348, #fc030374), url(561746\ copy.jpg);
+  }
+
+  .reveal{
+    opacity: 0;
+    transition: all 1.5s ease;
+  }
+  .reveal.active{
+    opacity: 1;
+  }
+  
